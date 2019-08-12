@@ -17,7 +17,7 @@
       "type": "none",
       "dependencies": [ "pcap_binding" ],
       "copies":
-        [ { "destination": "./package",
+        [ { "destination": "./",
           "files": [ './build/Release/pcap_binding.node' ]
         } ]
     }

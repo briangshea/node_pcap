@@ -21,6 +21,7 @@ coverage
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
+*.node
 
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
@@ -28,6 +29,9 @@ node_modules
 
 #libpcap build
 build
+
+#package build folder
+package/
 
 #OSX garbage
 .DS_Store

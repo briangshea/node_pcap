@@ -1,0 +1,13 @@
+.*
+Grunt*
+*.md
+binding.gyp
+build/
+package/
+examples/
+*.cpp
+*.cc
+*.hpp
+*.h
+wscript
+
