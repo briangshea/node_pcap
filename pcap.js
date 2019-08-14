@@ -1,6 +1,6 @@
 var util          = require("util");
 var events        = require("events");
-var binding       = require("pcap_binding");
+var binding       = require("./pcap_binding");
 var SocketWatcher = require("socketwatcher").SocketWatcher;
 var decode        = require("./decode").decode;
 var tcp_tracker   = require("./tcp_tracker");
